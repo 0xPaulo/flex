@@ -1,0 +1,28 @@
+html {
+  background-color: grey;
+}
+.flex {
+  display: flex;
+  padding-left: 120px;
+  gap: 20px;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* background-color: chocolate; */
+}
+h1 {
+  padding-left: 120px;
+  margin: 0px;
+  
+}
+h2 {
+  background-color: #e7e7e74b;
+  border: 1px solid #d7d7d7;
+  margin: 0px;
+  padding: 20px;
+}
+.grid {
+  padding-left: 120px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, 200px);
+}
